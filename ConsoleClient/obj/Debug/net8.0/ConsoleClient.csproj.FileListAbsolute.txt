@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\bin\Debug\net8.0\ConsoleClient.exe
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\bin\Debug\net8.0\ConsoleClient.deps.json
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\bin\Debug\net8.0\ConsoleClient.runtimeconfig.json
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\bin\Debug\net8.0\ConsoleClient.dll
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\bin\Debug\net8.0\ConsoleClient.pdb
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.dll
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\refint\ConsoleClient.dll
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.pdb
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ConsoleClient.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\111025APItest\ConsoleClient\obj\Debug\net8.0\ref\ConsoleClient.dll

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Test</h1>
+
+    <table id="table1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </table>
+    <button onclick="loadData()">Load Data</button>
+</body>
+</html>
+
+<script>
+    function loadData() {
+        const table = document.getElementById("table1");
+        fetch('https://localhost:7186/api/students')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                for (let student of data) {
+                    table.innerHTML += ` <tr>
+     <td>${student.id}</td>
+     <td>${student.name}</td >
+ </tr>`
+                }
+            })
+            .catch(error => console.error('Error: ', error));
+    }
+</script>

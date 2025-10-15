@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111025APItest", "111025APItest\111025APItest.csproj", "{8182F229-D4A6-4BDD-A0D0-B736DDB6A0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{D400A5A1-5AF0-487B-9BA2-CAD24DB605A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		clientDemoHtml.html = clientDemoHtml.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnionDemo", "OnionDemo", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8182F229-D4A6-4BDD-A0D0-B736DDB6A0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8182F229-D4A6-4BDD-A0D0-B736DDB6A0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8182F229-D4A6-4BDD-A0D0-B736DDB6A0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8182F229-D4A6-4BDD-A0D0-B736DDB6A0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D400A5A1-5AF0-487B-9BA2-CAD24DB605A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D400A5A1-5AF0-487B-9BA2-CAD24DB605A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D400A5A1-5AF0-487B-9BA2-CAD24DB605A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D400A5A1-5AF0-487B-9BA2-CAD24DB605A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {430B7760-F31B-4A60-A2B5-751E7BD9C124}
+	EndGlobalSection
+EndGlobal
