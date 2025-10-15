@@ -63,6 +63,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "_111025APItest.Controllers.ProductsController",
+    "Method": "AddTagToProduct",
+    "RelativePath": "api/Products/{productId}/add-tag/{tagId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_111025APItest.Controllers.ProductsController",
+    "Method": "RemoveTagToProduct",
+    "RelativePath": "api/Products/{productId}/remove-tag/{tagId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "_111025APItest.Controllers.StudentsController",
     "Method": "GetAll",
     "RelativePath": "api/Students",

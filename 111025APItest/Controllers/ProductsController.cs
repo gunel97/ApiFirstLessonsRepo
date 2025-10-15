@@ -124,11 +124,8 @@ namespace _111025APItest.Controllers
             if (!product.ProductTags.Any(pt => pt.TagId == tagId))
                 return BadRequest("Tag not found.");
 
-            product.ProductTags.Remove(new ProductTag
-            {
-                ProductId = productId,
-                TagId = tagId
-            });
+            var productTag= product.ProductTags.Single(pt=>pt.TagId == tagId);
+            product.ProductTags.Remove(productTag!);
 
             _dbContext.SaveChanges();
             return NoContent();
